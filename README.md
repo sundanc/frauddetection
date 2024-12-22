@@ -42,7 +42,10 @@ This project implements a fraud detection system using machine learning techniqu
    Use the `datasets.py` script to download the dataset:
    ```python
    import kagglehub
-   path = kagglehub.dataset_download("mlg-ulb/creditcardfraud")
+
+   # Download latest version
+   path = kagglehub.dataset_download("kartik2112/fraud-detection")
+
    print("Path to dataset files:", path)
    ```
 
