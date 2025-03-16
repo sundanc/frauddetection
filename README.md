@@ -2,6 +2,7 @@
 
 ## Overview
 This project implements a fraud detection system using machine learning techniques to identify fraudulent transactions. The model leverages various ensemble classifiers, including XGBoost, LightGBM, and CatBoost, alongside a stacking classifier. Hyperparameters for each model are optimized using Bayesian Optimization. To address class imbalance in the dataset, SMOTE-ENN (Synthetic Minority Over-sampling Technique with Edited Nearest Neighbors) is applied for resampling.
+Check my blog post for more information about the model: https://sundanc.github.io/credit-card-fraud-detection/
 
 ## Key Features
 
